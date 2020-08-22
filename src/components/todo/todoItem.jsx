@@ -12,7 +12,6 @@ const Todoitem = (props) => {
 	}
 
 	return (
-
 		<li className={s.todo}>
 			<label className={s.lable}>
 				<span>
@@ -23,7 +22,6 @@ const Todoitem = (props) => {
 			</label>
 			<button onClick={removeTodo.bind(null, props.todos.id)} >&times;</button>
 		</li>
-
 	)
 }
 Todoitem.propTypes = {

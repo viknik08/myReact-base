@@ -9,14 +9,15 @@
 .container_todo {
 	font-size: 24px;
 }
+
 .todo {
 	background: rgba(0, 0, 0, 0.174);
 	color: #fff;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 10px;
-	margin: 0px 0px 10px 0px;
+	padding: 5px;
+	margin: 0px 0px 20px 0px;
 	border: 1px solid #000;
 	border-radius: 10px;
 }
