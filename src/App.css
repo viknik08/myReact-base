@@ -1,0 +1,22 @@
+a {
+	text-decoration: none;
+	color: #000;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+a:hover {
+	transition: all 0.3s ease;
+	color: #fff;
+	text-shadow: 1px 4px 10px #000;
+}
+a.active {
+	color: #fff;
+	text-shadow: 1px 3px 10px #000;
+}
+.wraper {
+	display: flex;
+}
+.wraper-content {
+	flex: 1 1 50%;
+	background: #343a40;
+}

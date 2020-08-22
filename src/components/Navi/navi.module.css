@@ -1,0 +1,9 @@
+.navi_cnt {
+	background: #343a40;
+	font-size: 38px;
+	padding: 30px 0px 0px 20px;
+	height: 100vh;
+}
+.navi_item {
+	margin: 0px 0px 10px 0px;
+}
