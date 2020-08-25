@@ -1,11 +1,17 @@
 import React from 'react'
+import s from './posts.module.css'
+import Post from './Post'
+import { connect } from 'react-redux'
 
-const Posts = () => {
-	return (
-		<div>
-			Posts
-		</div>
-	)
+const Posts = (props) => {
+
+	return !props.post.length
+		? <p>No Posts</p>
+		: props.post.map(p => <Post title={p.title} key={p.id} />)
 }
 
-export default Posts
+
+const mapStateToProps = state => ({
+	post: state.posts.post
+})
+export default connect(mapStateToProps, null)(Posts)

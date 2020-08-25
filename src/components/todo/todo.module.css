@@ -68,12 +68,3 @@
 .form_cnt {
 	margin: 0px 0px 20px 0px;
 }
-.form_cnt input {
-	margin: 20px 0px 0px 0px;
-	background: #343a40;
-	font-size: 26px;
-	border-top: 0;
-	border-left: 0;
-	border-right: 0;
-	border-bottom: 2px solid #000;
-}

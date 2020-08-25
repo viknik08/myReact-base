@@ -10,6 +10,14 @@ code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
+.wraper {
+	display: flex;
+}
+.wraper-content {
+	flex: 1 1 50%;
+	background: #343a40;
+}
+
 ul {
 	list-style: none;
 	margin: 0;
@@ -64,4 +72,29 @@ ul {
 	height: 2px;
 	background-color: #0b93f6;
 	transition: all 0.3s ease;
+}
+a {
+	text-decoration: none;
+	color: #000;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+a:hover {
+	transition: all 0.3s ease;
+	color: #fff;
+	text-shadow: 1px 4px 10px #000;
+}
+a.active {
+	color: #fff;
+	text-shadow: 1px 3px 10px #000;
+}
+input {
+	color: #fff;
+	margin: 20px 0px 0px 0px;
+	background: #2e3439;
+	font-size: 26px;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 2px solid #000;
 }

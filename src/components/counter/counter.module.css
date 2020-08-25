@@ -1,0 +1,17 @@
+.counter_cnt {
+	width: 900px;
+	margin: 0 auto;
+	padding: 50px 0px 0px 0px;
+}
+.count {
+	text-transform: uppercase;
+	font-size: 28px;
+	text-align: center;
+}
+.count h2 {
+	text-decoration: underline;
+}
+.btn {
+	display: flex;
+	justify-content: space-between;
+}

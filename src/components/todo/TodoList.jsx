@@ -14,10 +14,8 @@ const TodoList = () => {
 		fetch('https://jsonplaceholder.typicode.com/todos?_limit=5')
 			.then(response => response.json())
 			.then(todos => {
-				setTimeout(() => {
-					setTodos(todos)
-					setLoading(false)
-				}, 2000)
+				setTodos(todos)
+				setLoading(false)
 			})
 	}, [])
 
